@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nbjuniper-{{ version }}.tar.gz
-  sha256: 6a200600ad3d8467677703c450ce0e6ad5758932e3780309df6f3b46cdac006d
+  sha256: d78f5184059be1292241541a4271ec75f73c86b16406de4b6b8b46d2afe7606e
 
 build:
   number: 0
