@@ -1,5 +1,5 @@
 {% set name = "nbjuniper" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nbjuniper-{{ version }}.tar.gz
-  sha256: 6a200600ad3d8467677703c450ce0e6ad5758932e3780309df6f3b46cdac006d
+  sha256: 845daca4b66ec0c233718f06a24adfef9fcc3aa80c1035ba28219d3ddb6b5d40
 
 build:
   number: 0
@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/ashtonmv/nbjuniper
-  summary: 'Convert IPython notebooks to executable HTML files with Juniper.'
+  summary: Convert IPython notebooks to executable HTML files with Juniper.
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
