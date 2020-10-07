@@ -1,5 +1,5 @@
 {% set name = "nbjuniper" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nbjuniper-{{ version }}.tar.gz
-  sha256: 1cd66c9129895071539dc0a37baafcda63b9a8cb0ad4790931a6b5a30b951782
+  sha256: 14bb090637d38a1f460db96ee11261b08bd73269458e7047ba31677b1792556a
 
 build:
   number: 0
