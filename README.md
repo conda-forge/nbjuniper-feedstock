@@ -5,11 +5,9 @@ Home: https://github.com/ashtonmv/nbjuniper
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nbjuniper-feedstock/blob/master/LICENSE.txt)
 
 Summary: Convert IPython notebooks to executable HTML files with Juniper.
-
-
 
 Current build status
 ====================
