@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nbjuniper-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nbjuniper-{{ version }}.tar.gz
   sha256: 4cd7f9cb4df600126dd9ccdf268ef2da2d9bd2742deb71e707ebf4dbe63e4558
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - nbjuniper = nbjuniper.cli:main
@@ -21,10 +21,10 @@ requirements:
   host:
     - pip
     - poetry
-    - python >=3.6,<4.0
+    - python {{ python_min }}
   run:
     - markdown >=3.2.2,<4.0.0
-    - python >=3.6,<4.0
+    - python >={{ python_min }},<4.0
     - pyyaml >=5.3.1,<6.0.0
 
 test:
@@ -34,6 +34,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/ashtonmv/nbjuniper
